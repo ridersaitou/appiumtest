@@ -1,0 +1,23 @@
+{
+  "name": "appium-eddytest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^6.12.1"
+  },
+  "devDependencies": {
+    "@wdio/appium-service": "^7.0.3",
+    "@wdio/local-runner": "^6.12.1",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/selenium-standalone-service": "^6.12.1",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0"
+  }
+}
